@@ -1,6 +1,10 @@
-# GameForm Growth System
+# FounderOS-AI
 
-Aplicação web inspirada na planilha estratégica da Osten Games para acompanhar maturidade, validação, crescimento e evolução por etapas de estúdios e startups.
+FounderOS AI is an AI-native operating system for entrepreneurs, startup programs, universities, accelerators, and early-stage founders who need to turn ideas into validated, structured, and investable businesses.
+
+## Plataforma atual
+
+Aplicação web inspirada na metodologia GameForm para acompanhar maturidade, validação, crescimento e evolução por etapas de estúdios e startups.
 
 ## Stack
 
@@ -38,27 +42,3 @@ Sem variáveis do Supabase, a aplicação entra em modo demo navegável com sele
 - Migração: `supabase/migrations/0001_gameform_growth_system.sql`
 - Hardening de auth/RLS: `supabase/migrations/0002_auth_rls_hardening.sql`
 - Seed inicial: `supabase/seed.sql`
-
-## Segurança e permissões
-
-- Autenticação com Supabase Auth (sessão real; sem confiar em cookie de papel em produção)
-- Papéis suportados: `admin`, `mentor`, `founder`, `member`
-- Isolamento por startup com RLS por `organization_id`
-- Mentor com acesso apenas a startups atribuídas em `mentor_assignments`
-- Auditoria automática de alterações sensíveis em `activity_logs`
-
-## Checklist
-
-- [x] Login com email/senha e recuperação de senha preparada
-- [x] Middleware e helpers de sessão para Supabase
-- [x] Dashboard com progresso, radar e alertas
-- [x] Navegação lateral por módulos
-- [x] Página individual de módulo com rascunho/publicação
-- [x] Comparativo GF-Sensor
-- [x] Financeiro 24 meses
-- [x] Marcos + Gantt
-- [x] Relatório executivo com exportação PDF
-- [x] Painel do mentor
-- [x] Painel admin Osten Games
-- [x] Seed fictício
-- [x] Testes unitários básicos
