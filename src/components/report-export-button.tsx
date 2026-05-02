@@ -38,7 +38,7 @@ export function ReportExportButton({
     };
 
     doc.setFontSize(18);
-    writeLine("GameForm Growth System - Relatorio Executivo");
+    writeLine("FounderOS AI - Relatório Executivo");
     y += 2;
     doc.setFontSize(12);
     writeLine(`Studio: ${summary.name}`);
@@ -68,7 +68,7 @@ export function ReportExportButton({
       writeLine(`- ${entry.author}: ${entry.message}`, 18);
     });
 
-    doc.save("gameform-growth-system-relatorio.pdf");
+    doc.save("founderos-ai-relatorio.pdf");
   };
 
   return (

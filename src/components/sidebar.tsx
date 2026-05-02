@@ -34,7 +34,7 @@ export function Sidebar({ role, pathname }: { role: Role; pathname: string }) {
   return (
     <aside className="glass-panel hidden w-80 flex-col rounded-[2rem] p-5 lg:flex">
       <div className="rounded-[1.5rem] bg-slate-950 p-5 text-white">
-        <p className="text-sm text-teal-200">GameForm Growth System</p>
+        <p className="text-sm text-teal-200">FounderOS AI</p>
         <h2 className="mt-2 font-display text-2xl font-bold">Osten Games</h2>
         <span className={cn("mt-4 inline-flex rounded-full px-3 py-1 text-xs font-semibold", roleMeta.accent)}>
           {roleMeta.label}

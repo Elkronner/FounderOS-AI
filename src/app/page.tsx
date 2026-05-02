@@ -22,7 +22,7 @@ export default function HomePage() {
 
             <div className="space-y-5">
               <h1 className="max-w-3xl font-display text-5xl font-semibold tracking-tight text-slate-950 md:text-6xl">
-                GameForm Growth System
+                FounderOS AI
               </h1>
               <p className="max-w-2xl text-balance text-lg leading-8 text-slate-600 md:text-xl">
                 Evolua estudios e startups de games com uma trilha clara de

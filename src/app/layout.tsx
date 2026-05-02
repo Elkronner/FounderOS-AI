@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GameForm Growth System",
+  title: "FounderOS AI",
   description:
-    "Plataforma de growth tracking, validacao e maturidade para estudios e startups acompanhados pela Osten Games.",
+    "Plataforma de growth tracking, validação e maturidade para estúdios e startups.",
 };
 
 import { SettingsProvider } from "@/components/providers/settings-provider";

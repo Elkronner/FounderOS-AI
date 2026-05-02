@@ -51,7 +51,7 @@ export function PhaseOneDashboard({
               Dashboard principal
             </h1>
             <p className="mt-2 max-w-3xl text-sm leading-7 text-slate-600">
-              Visao consolidada da trilha GameForm com progresso real salvo no servidor.
+              Visão consolidada da trilha FounderOS AI com progresso real salvo no servidor.
             </p>
           </div>
           <div

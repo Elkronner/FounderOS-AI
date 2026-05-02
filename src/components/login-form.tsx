@@ -31,7 +31,7 @@ export function LoginForm({ demoMode = false }: { demoMode?: boolean }) {
           </span>
           <div>
             <h1 className="font-display text-4xl font-bold">
-              Entre no GameForm Growth System
+              Entre no FounderOS AI
             </h1>
             <p className="mt-4 text-sm leading-7 text-slate-300">
               Fundadores, mentores e equipe Osten Games trabalham no mesmo fluxo,
@@ -64,7 +64,7 @@ export function LoginForm({ demoMode = false }: { demoMode?: boolean }) {
                 type="email"
                 placeholder="voce@studio.com"
                 className="w-full bg-transparent outline-none"
-                defaultValue="demo@gameform.ai"
+                defaultValue="demo@founderos.ai"
               />
             </div>
           </div>

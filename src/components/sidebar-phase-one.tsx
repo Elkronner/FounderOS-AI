@@ -64,7 +64,7 @@ export function SidebarPhaseOne({
             <Bot className="h-6 w-6" />
           </div>
           <div>
-            <h2 className="font-display text-lg font-bold tracking-tight text-foreground">GameForm OS</h2>
+            <h2 className="font-display text-lg font-bold tracking-tight text-foreground">FounderOS AI</h2>
             <p className="text-[10px] font-bold uppercase tracking-widest text-muted">{t("common.brand_cockpit")}</p>
           </div>
         </div>
